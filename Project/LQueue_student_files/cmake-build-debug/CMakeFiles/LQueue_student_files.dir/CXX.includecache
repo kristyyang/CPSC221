@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yangliu/Desktop/CPSC221/Project/LQueue_student_files/LQueue.C
+iostream
+-
+math.h
+-
+LQueue.h
+/Users/yangliu/Desktop/CPSC221/Project/LQueue_student_files/LQueue.h
+
+/Users/yangliu/Desktop/CPSC221/Project/LQueue_student_files/LQueue.h
+iostream
+-
+
+/Users/yangliu/Desktop/CPSC221/Project/LQueue_student_files/LQueue_driver.C
+iostream
+-
+LQueue.h
+/Users/yangliu/Desktop/CPSC221/Project/LQueue_student_files/LQueue.h
+

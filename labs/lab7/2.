@@ -1,0 +1,11 @@
+2. 
+
+a) with load factor around 7/10, Linear Hash is as good as quadratic, according to the result value. when load factor around 9/10 the quadratic appears better behaviour.
+
+b) No, we cannot make it as good as quadratic function. Because double hash function has hash2 function, everytime when we call double hashing funtion, we add numbers of hash2 funtion.
+
+However, quadratic function we only add i^2 in the initial hashing funtion.
+
+c) load factor is 9/10, d is greater than l and q.
+
+d) I would choose double hash function, because it will succeed when insert number is prime and load factor < 1, and does not have to be big gain as linear and quadratic

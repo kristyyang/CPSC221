@@ -1,0 +1,17 @@
+Q4.
+Recurrence relation in math notation:
+
+c(n) = Σ_(m=1)^(n) (n-1 + c(m -1) + c(n-m)) / n
+
+Q5.
+
+a) Average case: O(nlogn)
+
+b) Worest case : O(n^2)>= (n-1)+(n-2)+(n-3).....+1, because it would requrire to choose the min/max element
+for each the pivot, since the pivot was chosen randomly it would be hard to choose extreme value to be chosen chonsistenly.
+
+
+
+No it is not in-place sort, we are using extra memory for accessing stack frames from of the recursive calls.
+
+Not stable, when we call swap it did not maintain and preserve the order.
